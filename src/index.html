@@ -5,17 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Box by antonnewby</title>
+    <link rel="stylesheet" href="./css/app.css">
 </head>
 <body>
-    <header>
-        <p>Music box</p>
-        <img src="./images/logo.svg" alt="iTunes logo">
-        <nav>
-            <a href="#">Главная</a>
-            <a href="#">Каталог</a>
-            <a href="#">Исполнители</a>
-            <a href="#">Контакты</a>
-        </nav>
+    <header class="header">
+        <div class="container">
+            <div class="wrapper top-menu">
+                <nav class="navbar">
+                    <a href="#" class="logo">
+                        <img src="./images/logo.svg" alt="iTunes logo" width="24px" height="24px">
+                        <div class="logo-title">Music Box</div>
+                    </a>
+                    <ul class="nav-list">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Каталог</a></li>
+                        <li><a href="#">Исполнители</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="search-right">
+                    <form class="search-form">
+                        <input type="text" placeholder="ПОИСК...">
+                    </form>
+                </div>
+            </div>
+        </div>
     </header>
+    <section id="page-description" class="banner">
+        <div class="container banner-wrapper">
+            <div class="banner-text">
+                <h1>Онлайн музыка где угодно</h1>
+                <h2>без ограничений</h2>
+                <p>Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
+            </div>
+            <form class="access-form">
+                <div class="input-container">
+                    <input type="text" class="grid-col-1" placeholder="Имя">
+                    <input type="text" class="grid-col-2" placeholder="Email">
+                    <button type="submit" class="btn access-button grid-col-3">Получить доступ</button>
+                </div>
+            </form>
+        </div>
+    </section>
 </body>
 </html>

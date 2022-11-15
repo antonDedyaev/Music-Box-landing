@@ -42,6 +42,26 @@ h2 {
     @extend %bold-uppercase;
 }
 
+h3 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: normal;
+}
+
+.btn {
+    padding: 20px 30px;
+    color: $white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/*DESKTOP*/
+
+.container {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 /*MOBILE*/
 
 @media (max-width: 1239px) {

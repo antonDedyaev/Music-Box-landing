@@ -2,12 +2,6 @@
     position: relative;
 }
 
-.container {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .wrapper {
     position: absolute;
     top: 25px;
@@ -20,7 +14,6 @@
     align-items: center;
 
 }
-
 
 .navbar {
     display: flex;
@@ -77,11 +70,6 @@
     }
 
 }
-
-.access-button {
-    text-transform: uppercase;
-}
-
 
 
 .banner {
@@ -147,11 +135,7 @@
         }
     }
 
-    .access-button {
-        padding: 20px 30px;
-        border-radius: 5px;
-
-        color: $white;
+    .btn-access {
         background: $green;
     }
 }

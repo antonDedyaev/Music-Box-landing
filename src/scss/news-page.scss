@@ -3,7 +3,8 @@
 }
 
 .news {
-    h2 {margin-top: 0;
+    h2 {
+        margin-top: 0;
         margin-bottom: 48px;
         text-align: center;
         color: $white;
@@ -43,7 +44,7 @@
 
         margin-bottom: 48px;
 
-        font-size: 12px;
+        font-size: 12.8px;
         line-height: 1.5em;
         text-transform: uppercase;
 
@@ -79,7 +80,7 @@
 
         padding: 16px 30px;
 
-        font-size: 12px;
+        font-size: 12.8px;
         line-height: 1.5em;
 
         color: $dark-gray;
@@ -103,7 +104,4 @@
             font-size: 1rem;
         }
     }
-
-    
-
 }

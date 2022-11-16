@@ -51,6 +51,10 @@ h3 {
   text-transform: uppercase;
 }
 
+.pt-100 {
+  padding-top: 100px;
+}
+
 /*DESKTOP*/
 .container {
   position: relative;
@@ -60,6 +64,11 @@ h3 {
 
 /*MOBILE*/
 @media (max-width: 1239px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 100%;
+  }
   h1 {
     font-size: 30px;
     line-height: 45px;
@@ -201,11 +210,6 @@ h3 {
   body {
     margin: 0;
   }
-  .container {
-    padding-left: 20px;
-    padding-right: 20px;
-    max-width: 100%;
-  }
   .wrapper {
     top: 27px;
     display: block;
@@ -246,9 +250,6 @@ h3 {
   color: #FFFFFF;
 }
 
-.tariffs {
-  padding-top: 100px;
-}
 .tariffs h2 {
   margin-top: 0;
   margin-bottom: 45px;
@@ -323,12 +324,7 @@ h3 {
 }
 
 @media (max-width: 1239px) {
-  .container {
-    padding-left: 20px;
-    padding-right: 20px;
-    max-width: 100%;
-  }
-  .container h2 {
+  .tariffs h2 {
     max-width: 100%;
   }
   .tariffs-wrapper {
@@ -342,6 +338,85 @@ h3 {
   .pricing-item h3 {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+}
+.newsblock {
+  display: flex;
+}
+
+.news h2 {
+  margin-top: 0;
+  margin-bottom: 48px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.news-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 65px;
+}
+.news-item {
+  display: flex;
+  gap: 50px;
+}
+.news-title {
+  margin-top: 0;
+  font-size: 30px;
+  line-height: 1.5em;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+.news-text {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 24px;
+}
+.news-author {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 48px;
+  font-size: 12px;
+  line-height: 1.5em;
+  text-transform: uppercase;
+}
+.news-author .post-author {
+  color: #F89202;
+}
+
+.text-right {
+  flex-direction: row;
+}
+.text-left {
+  flex-direction: row-reverse;
+}
+
+.col-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-album {
+  box-sizing: border-box;
+  display: block;
+  width: max-content;
+  padding: 16px 30px;
+  font-size: 12px;
+  line-height: 1.5em;
+  color: #CACACA;
+  border: 1px solid #CACACA;
+}
+
+@media (max-width: 1239px) {
+  .news-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .news-image {
+    min-width: 374px;
+  }
+  .news-title {
+    font-size: 1rem;
   }
 }
 

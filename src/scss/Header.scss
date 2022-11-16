@@ -135,8 +135,10 @@
         }
     }
 
-    .btn-access {
-        background: $green;
+    .btn {
+        &-access {
+            background: $green;
+        }
     }
 }
 
@@ -156,12 +158,6 @@
     body {
         margin: 0;
     }
-    .container {
-        padding-left: 20px;
-        padding-right: 20px;
-        max-width: 100%;
-    }
-
 
     .wrapper {
         top: 27px;

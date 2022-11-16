@@ -55,6 +55,10 @@ h3 {
     text-decoration: none;
     text-transform: uppercase;
 }
+
+.pt-100 {
+    padding-top: 100px;
+}
 /*DESKTOP*/
 
 .container {
@@ -62,9 +66,17 @@ h3 {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+
 /*MOBILE*/
 
 @media (max-width: 1239px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+        max-width: 100%;
+    }
+    
     h1 {
         font-size: 30px;
         line-height: 45px;

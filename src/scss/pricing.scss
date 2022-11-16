@@ -10,9 +10,8 @@
     text-align: center;
     color: $white;
 }
-.tariffs {
-    padding-top: 100px;
 
+.tariffs {
     h2 {
         margin-top: 0;
         margin-bottom: 45px;
@@ -106,17 +105,11 @@
 }
 
 @media (max-width: 1239px) {
-    .container {
-        padding-left: 20px;
-        padding-right: 20px;
-        max-width: 100%;
-
+    .tariffs {
         h2 {
             max-width: 100%;
         }
-    }
 
-    .tariffs {
         &-wrapper {
             display: flex;
             flex-wrap: wrap;

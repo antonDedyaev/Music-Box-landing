@@ -1,0 +1,75 @@
+.mobile-app {
+    display: flex;
+}
+
+.mobile-app {
+    h2 {
+        margin-top: 0;
+        margin-bottom: 48px;
+        text-align: center;
+        color: $white;
+    }
+}
+
+.app {
+    padding-bottom: 100px;
+
+    &-wrapper {
+        display: flex;
+        gap: 144px;
+    }
+
+    &-description {
+        font-size: 1rem;
+        line-height: 1.5rem;
+
+        color: $dark-gray;
+
+    }
+}
+
+.col-1 {
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+}
+
+.col-2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn {
+    &-download {
+        padding: 16px 40px;
+        width: max-content;
+        font-size: 12.8px;
+
+        border-radius: 32px;
+        background: $red;
+
+        text-transform: none;
+    }
+}
+
+@media (max-width: 1239px) {
+    .app {
+        &-wrapper {
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+            gap: 0;
+
+        }
+ 
+    }
+
+    .col-1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}

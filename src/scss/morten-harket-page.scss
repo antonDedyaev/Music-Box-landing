@@ -1,0 +1,74 @@
+.morten-harket {
+    display: flex;
+    justify-content: flex-start;
+    padding: 200px 0px;
+
+    color: $white;
+
+    background-image: url('../images/Morten\ Harket.png');
+    background-position: center;
+    background-size: cover;
+
+    &-wrapper {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 1200px;
+    }
+
+    &-text {
+        text-align: left;
+
+        h1 {
+            margin-bottom: 0;
+        }
+
+        p {
+            margin: 1rem 0 3rem;
+            font-size: 16px;
+            line-height: 1.5rem;
+        }
+    }
+
+    &-buttons {
+        display: grid;
+        gap: 24px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.btn {
+    &-add {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        width: 200px;
+
+        box-sizing: border-box;
+
+        font-size: 12.8px;
+        line-height: 1.5em;
+    }
+
+    &-mix {
+        background: $purple;
+    }
+
+    &-favourites {
+        background: $red;
+    }
+
+    img {
+        filter: invert(1);
+    }
+}
+
+
+@media (max-width: 1239px) {
+    .morten-harket {
+        &-buttons {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

@@ -55,19 +55,6 @@ a:hover {
   text-decoration: none;
 }
 
-.search-form {
-  display: flex;
-  align-items: center;
-}
-.search-input {
-  min-width: 248px;
-  padding: 5px 10px;
-  font: 13.3px/15px Arial;
-  border: none;
-  border-radius: 50px;
-  background: #3C3B3D;
-}
-
 .link-top-nav {
   color: #CACACA;
   text-decoration: none;
@@ -93,6 +80,20 @@ a:hover {
   position: absolute;
   top: 25px;
   width: 100%;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+.search-input {
+  min-width: 248px;
+  padding: 5px 10px;
+  font: 13.3px/15px Arial;
+  border: none;
+  border-radius: 50px;
+  background: #3C3B3D;
+  box-sizing: border-box;
 }
 
 .menu {
@@ -167,6 +168,9 @@ h2 {
     list-style: none;
   }
   .search-right {
+    align-self: stretch;
+  }
+  .search-input {
     width: calc(100% - 40px);
   }
   h1 {
@@ -247,7 +251,7 @@ h2 {
     margin: 0;
   }
   .banner {
-    padding: 250px 0px;
+    padding: 250px 0 200px;
   }
   .banner-wrapper {
     display: block;
@@ -587,9 +591,55 @@ h2 {
 }
 
 @media (max-width: 1239px) {
+  .morten-harket {
+    padding: 225px 0;
+  }
+  .morten-harket-text h1 {
+    margin: 0;
+  }
   .morten-harket-buttons {
     display: flex;
     flex-direction: column;
+  }
+}
+.tracks h2 {
+  color: #FFFFFF;
+  margin: 0 0 3rem;
+}
+.tracks-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 25px 50px;
+}
+
+.popular-track {
+  display: flex;
+  align-items: center;
+  font-size: 12.8px;
+  line-height: 19.2px;
+}
+.popular-track .track-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.popular-track .track-image {
+  margin-right: 15px;
+}
+.popular-track .track-title {
+  margin: 0;
+  color: #FFFFFF;
+  font: bold 12.8px/19.2px Roboto;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1239px) {
+  .tracks-wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(6, 1fr);
   }
 }
 

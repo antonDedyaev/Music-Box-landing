@@ -642,5 +642,43 @@ h2 {
     grid-template-rows: repeat(6, 1fr);
   }
 }
+.albums h2 {
+  color: #FFFFFF;
+  margin: 0 0 3rem;
+}
+.albums-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px 50px;
+}
+
+.album-info {
+  display: flex;
+  flex-direction: column;
+}
+.album-title {
+  margin: 1rem 0 0;
+  color: #FFFFFF;
+  font: 700 18px/27px Roboto;
+  text-transform: capitalize;
+}
+.album-year {
+  font-size: 1rem;
+}
+
+@media (max-width: 1239px) {
+  .albums-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: max-content;
+  }
+  .album-info {
+    width: 138px;
+  }
+  .album-image {
+    width: 137px;
+    height: 137px;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */

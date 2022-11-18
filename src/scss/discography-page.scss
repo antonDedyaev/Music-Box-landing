@@ -1,0 +1,52 @@
+.albums {
+    h2 {
+        color: $white;
+        margin: 0 0 3rem;
+    }
+    &-wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px 50px;
+    }
+}
+
+.album {
+    &-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-title {
+        margin: 1rem 0 0;
+
+        color: $white;
+        font: 700 18px/27px Roboto;
+        text-transform: capitalize;
+    }
+
+    &-year {
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 1239px) {
+    .albums {
+        &-wrapper {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: max-content;
+        }
+    }
+
+    .album {
+        &-info {
+            width: 138px;
+        }
+
+        &-image {
+            width: 137px;
+            height: 137px;
+        }
+    }
+}

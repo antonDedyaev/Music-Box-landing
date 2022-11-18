@@ -66,6 +66,14 @@
 
 @media (max-width: 1239px) {
     .morten-harket {
+        padding: 225px 0;
+
+        &-text {
+            h1 {
+                margin: 0;
+            }
+        }
+
         &-buttons {
             display: flex;
             flex-direction: column;

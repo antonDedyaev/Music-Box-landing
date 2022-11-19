@@ -4,9 +4,6 @@
 
 .news {
   h2 {
-    margin-top: 0;
-    margin-bottom: 48px;
-
     color: $white;
     text-align: center;
   }
@@ -23,8 +20,6 @@
   }
 
   &-title {
-    margin-top: 0;
-
     color: $white;
 
     font-size: 30px;
@@ -33,8 +28,6 @@
   }
 
   &-text {
-    margin-bottom: 24px;
-
     font-size: 1rem;
     line-height: 1.5rem;
   }
@@ -42,8 +35,6 @@
   &-author {
     display: flex;
     gap: 16px;
-
-    margin-bottom: 48px;
 
     font-size: 12.8px;
     line-height: 1.5em;

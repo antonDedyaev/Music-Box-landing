@@ -19,10 +19,6 @@
   &-text {
     text-align: left;
 
-    h1 {
-      margin-bottom: 0;
-    }
-
     p {
       margin: 1rem 0 3rem;
 
@@ -66,7 +62,7 @@
 
 @media (max-width: 1239px) {
   .morten-harket {
-    padding: 225px 0;
+    padding-top: 225px;
 
     &-text {
       h1 {

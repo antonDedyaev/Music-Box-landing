@@ -262,6 +262,8 @@ h2 {
 }
 .access-form .input-container input::placeholder {
   font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
   color: #fff;
 }
 .access-form .btn-access {
@@ -506,7 +508,7 @@ h2 {
 @media (max-width: 1239px) {
   .app-wrapper {
     display: flex;
-    flex-direction: column-reverse wrap;
+    flex-flow: column-reverse wrap;
     gap: 0;
   }
   .col-1 {
@@ -684,6 +686,9 @@ h2 {
     width: max-content;
   }
   .album-info {
+    width: 138px;
+  }
+  .album-title {
     width: 138px;
   }
   .album-image {

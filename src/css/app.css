@@ -261,9 +261,11 @@ h2 {
   border-radius: 3px;
 }
 .access-form .input-container input::placeholder {
+  font-weight: 700;
   color: #fff;
 }
 .access-form .btn-access {
+  border: none;
   background: #34c176;
 }
 

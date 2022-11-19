@@ -57,6 +57,7 @@
       border-radius: 3px;
 
       &::placeholder {
+        font-weight: 700;
         color: $white;
       }
     }
@@ -64,6 +65,7 @@
 
   .btn {
     &-access {
+      border: none;
       background: $green;
     }
   }

@@ -1,131 +1,131 @@
 @mixin bg-position-size {
-    background-position: top;
-    background-size: cover;    
-}
-
-.pricing {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    color: $white;
+  background-position: top;
+  background-size: cover;
 }
 
 .tariffs {
-    h2 {
-        margin-top: 0;
-        margin-bottom: 45px;
-    }
+  h2 {
+    margin-top: 0;
+    margin-bottom: 45px;
+  }
 
-    &-wrapper {
-        display: flex;
-        justify-content: space-between;
-        gap: 50px;
+  &-wrapper {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
 
-        margin-bottom: 40px;
-    }
+    margin-bottom: 40px;
+  }
 
-    &-disclaimer {
-        margin: 0;
-        font-size: 16px;
-        line-height: 1.5em;
-    }
+  &-disclaimer {
+    margin: 0;
+
+    font-size: 16px;
+    line-height: 1.5em;
+  }
 }
 
 .pricing {
-    &-item {
-        position: relative;
-        padding: 24px 1.5rem 0;
-        min-width: 366.66px;
-        max-height: 615px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-        text-transform: uppercase;
-        border-radius: 1rem;
+  color: $white;
+  text-align: center;
 
-        box-sizing: border-box;
+  &-item {
+    position: relative;
 
-        h3 {
-            margin: 0;
-            padding: 0;
-        }
+    box-sizing: border-box;
+    min-width: 366.66px;
+    max-height: 615px;
+    padding: 24px 1.5rem 0;
+
+    text-transform: uppercase;
+
+    border-radius: 1rem;
+
+    h3 {
+      margin: 0;
+      padding: 0;
     }
+  }
 
-    &-value {
-        display: flex;
-        justify-content: center;
-        gap: 16px;
-        margin-top: 200px;
-        margin-bottom: 40px;
+  &-value {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 40px;
 
-        font-size: 64px;
-        line-height: 100%;
+    font-size: 64px;
+    line-height: 100%;
 
-        span {
-            font-size: 0.5em;
-            line-height: 150%;
-        }
+    span {
+      font-size: 0.5em;
+      line-height: 150%;
     }
+  }
 
-    &-footer {
-        display: flex;
-        margin: 64px auto;
+  &-footer {
+    display: flex;
+    margin: 64px auto;
 
-        font-size: 12.8px;
-        line-height: 1.5em;
-        text-transform: none;
-    }
-
+    font-size: 12.8px;
+    line-height: 1.5em;
+    text-transform: none;
+  }
 }
 
 .bg {
-    &-free {
-        background-image: url(../images/subscribe_1.png);
-        @include bg-position-size;
-    }
+  &-free {
+    background-image: url("../images/subscribe_1.png");
 
-    &-standard {
-        background-image: url(../images/subscribe_2.png);
-        @include bg-position-size;
-    }
+    @include bg-position-size;
+  }
 
-    &-premium {
-        background-image: url(../images/subscribe_3.png);
-        @include bg-position-size;
-    }
+  &-standard {
+    background-image: url("../images/subscribe_2.png");
+
+    @include bg-position-size;
+  }
+
+  &-premium {
+    background-image: url("../images/subscribe_3.png");
+
+    @include bg-position-size;
+  }
 }
 
 .btn {
-    &-subscribe {
-        display: flex;
-        justify-content: center;
-        box-sizing: border-box;
+  &-subscribe {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
 
-        border: 1px solid $white;
-    }
+    border: 1px solid $white;
+  }
 }
 
 @media (max-width: 1239px) {
-    .tariffs {
-        h2 {
-            max-width: 100%;
-        }
-
-        &-wrapper {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
+  .tariffs {
+    h2 {
+      max-width: 100%;
     }
 
-    .pricing-item {
-        padding-top: 1rem;
-
-        h3 {
-            font-size: 1rem;
-            line-height: 1.5rem;
-        }
+    &-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
+  }
+
+  .pricing-item {
+    padding-top: 1rem;
+
+    h3 {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  }
 }
-
-
-

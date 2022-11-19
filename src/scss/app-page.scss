@@ -1,75 +1,70 @@
 .mobile-app {
-    display: flex;
-}
+  display: flex;
 
-.mobile-app {
-    h2 {
-        margin-top: 0;
-        margin-bottom: 48px;
-        text-align: center;
-        color: $white;
-    }
+  h2 {
+    margin-top: 0;
+    margin-bottom: 48px;
+
+    color: $white;
+    text-align: center;
+  }
 }
 
 .app {
-    padding-bottom: 100px;
+  padding-bottom: 100px;
 
-    &-wrapper {
-        display: flex;
-        gap: 144px;
-    }
+  &-wrapper {
+    display: flex;
+    gap: 144px;
+  }
 
-    &-description {
-        font-size: 1rem;
-        line-height: 1.5rem;
+  &-description {
 
-        color: $dark-gray;
-
-    }
+    color: $dark-gray;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
 .col-1 {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    width: 50%;
+  width: 50%;
 }
 
 .col-2 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-
 .btn {
-    &-download {
-        padding: 16px 40px;
-        width: max-content;
-        font-size: 12.8px;
+  &-download {
+    width: max-content;
+    padding: 16px 40px;
 
-        border-radius: 32px;
-        background: $red;
+    font-size: 12.8px;
 
-        text-transform: none;
-    }
+    text-transform: none;
+
+    background: $red;
+
+    border-radius: 32px;
+  }
 }
 
 @media (max-width: 1239px) {
-    .app {
-        &-wrapper {
-            display: flex;
-            flex-direction: column-reverse;
-            flex-wrap: wrap;
-            gap: 0;
-
-        }
- 
+  .app {
+    &-wrapper {
+      display: flex;
+      flex-direction: column-reverse wrap;
+      gap: 0;
     }
+  }
 
-    .col-1 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
-    }
+  .col-1 {
+    display: flex;
+    flex-direction: row wrap;
+    width: 100%;
+  }
 }

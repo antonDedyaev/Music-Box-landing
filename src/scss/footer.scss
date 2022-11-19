@@ -1,51 +1,48 @@
 .footer-section {
-    padding: 3rem 0 3rem;
+  padding: 3rem 0;
 }
 
 .bg-gradient {
-    background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 
 .info {
-    &-wrapper {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 40px;
-    }
+  &-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+  }
 }
 
 .media-logo {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
 }
 
 .col {
-    display: flex;
-    flex-direction: column; 
+  display: flex;
+  flex-direction: column;
 
-    &-title {
-        font-size: 18px;
-        line-height: 1.5em;
-        color: $white;
-    }
+  &-title {
+    color: $white;
+    font-size: 18px;
+    line-height: 1.5em;
+  }
 }
 
 .divider {
-    &-bottom {
-        margin: 4.5rem 0 2.5rem;
-    }
+  &-bottom {
+    margin: 4.5rem 0 2.5rem;
+  }
 }
 
 @media (max-width: 1239px) {
-    .info {
-        &-wrapper {
-            display: flex;
-            flex-direction: column;
-            row-gap: 20px;
-        }
+  .info {
+    &-wrapper {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
     }
-
-
+  }
 }

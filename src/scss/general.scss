@@ -45,6 +45,10 @@ h3 {
     padding-top: 100px;
 }
 
+.mb-100 {
+    margin-bottom: 100px;
+}
+
 a {
     &:hover {
         color: $white;
@@ -88,7 +92,8 @@ a {
 .container {
     position: relative;
     max-width: 1200px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .top {

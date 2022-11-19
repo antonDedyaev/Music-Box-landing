@@ -41,6 +41,10 @@ h3 {
   padding-top: 100px;
 }
 
+.mb-100 {
+  margin-bottom: 100px;
+}
+
 a:hover {
   color: #FFFFFF;
 }
@@ -73,7 +77,8 @@ a:hover {
 .container {
   position: relative;
   max-width: 1200px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .top-wrapper {
@@ -676,6 +681,44 @@ h2 {
     width: 138px;
   }
   .album-image {
+    width: 137px;
+    height: 137px;
+  }
+}
+.similar h2 {
+  color: #FFFFFF;
+  margin: 0 0 3rem;
+}
+.similar-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px 50px;
+}
+.similar-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.similar-artist-name {
+  margin: 17px 0 1px;
+  font: bold 18px/27px Roboto;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+.similar-artist-fanbase {
+  font: normal 1rem/1.5rem Roboto;
+}
+
+@media (max-width: 1239px) {
+  .similar-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: max-content;
+  }
+  .similar-info {
+    width: 137px;
+  }
+  .similar-image {
     width: 137px;
     height: 137px;
   }

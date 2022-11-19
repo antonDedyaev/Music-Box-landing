@@ -1,0 +1,53 @@
+.similar {
+    h2 {
+        color: $white;
+        margin: 0 0 3rem;
+    }
+    &-wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px 50px;
+    }
+
+    &-info {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    &-artist {
+        &-name {
+            margin: 17px 0 1px;
+            font: bold 18px/27px Roboto;
+            color: $white;
+            text-transform: capitalize;
+        }
+
+        &-fanbase {
+            font: normal 1rem/1.5rem Roboto;
+        }
+    }
+
+
+}
+
+@media (max-width: 1239px) {
+    .similar {
+        &-wrapper {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: max-content;
+        }
+    }
+
+    .similar {
+        &-info {
+            width: 137px;
+        }
+
+        &-image {
+            width: 137px;
+            height: 137px;
+        }
+    }
+}

@@ -24,6 +24,7 @@
 
   &-title {
     color: $white;
+    margin-top: 0;
 
     font-size: 30px;
     line-height: 1.5em;
@@ -31,6 +32,7 @@
   }
 
   &-text {
+    margin-top: 0;
     font-size: 1rem;
     line-height: 1.5rem;
   }
@@ -39,8 +41,8 @@
     display: flex;
     gap: 16px;
 
-    font-size: 12.8px;
-    line-height: 1.5em;
+    font-size: 12px;
+    line-height: 19px;
     text-transform: uppercase;
 
     .post-author {
@@ -50,12 +52,22 @@
 }
 
 .text {
+  margin-top: 0;
+
   &-right {
     flex-direction: row;
+  
+    p {
+      margin-bottom: 25px;
+    }
   }
 
   &-left {
     flex-direction: row-reverse;
+
+    p {
+      margin-bottom: 15px;
+    }
   }
 }
 

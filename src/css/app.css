@@ -422,30 +422,41 @@ h2 {
 }
 .news-title {
   color: #fff;
+  margin-top: 0;
   font-size: 30px;
   line-height: 1.5em;
   text-transform: capitalize;
 }
 .news-text {
+  margin-top: 0;
   font-size: 1rem;
   line-height: 1.5rem;
 }
 .news-author {
   display: flex;
   gap: 16px;
-  font-size: 12.8px;
-  line-height: 1.5em;
+  font-size: 12px;
+  line-height: 19px;
   text-transform: uppercase;
 }
 .news-author .post-author {
   color: #f89202;
 }
 
+.text {
+  margin-top: 0;
+}
 .text-right {
   flex-direction: row;
 }
+.text-right p {
+  margin-bottom: 25px;
+}
 .text-left {
   flex-direction: row-reverse;
+}
+.text-left p {
+  margin-bottom: 15px;
 }
 
 .col-text {

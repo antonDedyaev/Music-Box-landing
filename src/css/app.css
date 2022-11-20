@@ -403,10 +403,6 @@ h2 {
     line-height: 1.5rem;
   }
 }
-.newsblock {
-  display: flex;
-}
-
 .news {
   padding-right: 20px;
   padding-left: 20px;
@@ -691,8 +687,8 @@ h2 {
   }
 }
 .albums {
-  padding-left: 20px;
   padding-right: 20px;
+  padding-left: 20px;
 }
 .albums h2 {
   color: #fff;
@@ -709,7 +705,7 @@ h2 {
   flex-direction: column;
 }
 .album-image {
-  margin-bottom: 1rem;
+  margin-bottom: 18px;
   color: #fff;
   font: bold 18px/27px Roboto, sans-serif;
   text-transform: capitalize;
@@ -728,6 +724,7 @@ h2 {
     width: 138px;
   }
   .album-title {
+    font: bold 18px/27px Roboto, sans-serif;
     width: 138px;
   }
   .album-image {

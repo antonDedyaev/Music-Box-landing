@@ -306,7 +306,7 @@ h2 {
   padding-left: 20px;
 }
 .tariffs h2 {
-  margin-bottom: 45px;
+  margin-bottom: 3rem;
 }
 .tariffs-wrapper {
   display: flex;
@@ -330,13 +330,13 @@ h2 {
   position: relative;
   box-sizing: border-box;
   min-width: 366.66px;
-  max-height: 615px;
   padding: 24px 1.5rem 0;
   text-transform: uppercase;
   border-radius: 1rem;
 }
 .pricing-item h3 {
   padding: 0;
+  margin-bottom: 200px;
 }
 .pricing-value {
   display: flex;
@@ -375,6 +375,7 @@ h2 {
 }
 
 .btn-subscribe {
+  height: 66px;
   display: flex;
   justify-content: center;
   box-sizing: border-box;

@@ -14,16 +14,17 @@
 }
 
 .album {
-  &-info {
+  &-info * {
+    margin: 0;
     display: flex;
     flex-direction: column;
   }
 
-  &-title {
-    margin: 1rem 0 0;
+  &-image {
+    margin-bottom: 1rem;
 
     color: $white;
-    font: 700 18px/27px Roboto, sans-serif;
+    font: bold 18px/27px Roboto, sans-serif;
     text-transform: capitalize;
   }
 

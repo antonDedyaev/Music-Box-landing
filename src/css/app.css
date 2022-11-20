@@ -710,6 +710,9 @@ h2 {
   font: bold 18px/27px Roboto, sans-serif;
   text-transform: capitalize;
 }
+.album-title {
+  color: #fff;
+}
 .album-year {
   font-size: 1rem;
 }
@@ -733,8 +736,8 @@ h2 {
   }
 }
 .similar {
-  padding-left: 20px;
   padding-right: 20px;
+  padding-left: 20px;
 }
 .similar h2 {
   color: #fff;
@@ -744,18 +747,25 @@ h2 {
   grid-template-columns: repeat(4, 1fr);
   gap: 25px 50px;
 }
+.similar-item {
+  max-width: 250px;
+}
+.similar-image {
+  margin-bottom: 18px;
+}
 .similar-info {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 .similar-artist-name {
-  margin: 18px 0 0;
+  margin: 0;
   color: #fff;
   font: bold 18px/27px Roboto, sans-serif;
   text-transform: capitalize;
 }
 .similar-artist-fanbase {
+  margin: 0;
   font: normal 1rem/1.5rem Roboto, sans-serif;
 }
 

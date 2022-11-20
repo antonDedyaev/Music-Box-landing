@@ -28,6 +28,10 @@
     text-transform: capitalize;
   }
 
+  &-title {
+    color: $white;
+  }
+
   &-year {
     font-size: 1rem;
   }

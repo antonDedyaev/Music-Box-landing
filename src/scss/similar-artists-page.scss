@@ -1,6 +1,6 @@
 .similar {
-  padding-left: 20px;
   padding-right: 20px;
+  padding-left: 20px;
 
   h2 {
     color: $white;
@@ -12,6 +12,15 @@
     gap: 25px 50px;
   }
 
+  &-item {
+    max-width: 250px;
+
+  }
+
+  &-image {
+    margin-bottom: 18px;
+  }
+
   &-info {
     display: flex;
     flex-direction: column;
@@ -21,7 +30,7 @@
 
   &-artist {
     &-name {
-      margin: 18px 0 0;
+      margin: 0;
 
       color: $white;
       font: bold 18px/27px Roboto, sans-serif;
@@ -29,6 +38,7 @@
     }
 
     &-fanbase {
+      margin: 0;
       font: normal 1rem/1.5rem Roboto, sans-serif;
     }
   }

@@ -695,7 +695,7 @@ h2 {
 }
 .albums-wrapper {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 250px);
   gap: 25px 50px;
 }
 
@@ -706,11 +706,10 @@ h2 {
 }
 .album-image {
   margin-bottom: 18px;
-  color: #fff;
-  font: bold 18px/27px Roboto, sans-serif;
   text-transform: capitalize;
 }
 .album-title {
+  font: bold 18px/27px Roboto, sans-serif;
   color: #fff;
 }
 .album-year {
@@ -744,14 +743,11 @@ h2 {
 }
 .similar-wrapper {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 250px);
   gap: 25px 50px;
 }
-.similar-item {
-  max-width: 250px;
-}
 .similar-image {
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 .similar-info {
   display: flex;

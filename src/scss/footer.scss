@@ -7,7 +7,11 @@
 }
 
 .info {
+  padding-right: 20px;
+  padding-left: 20px;
+
   &-wrapper {
+    padding: 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
@@ -33,7 +37,7 @@
 
 .divider {
   &-bottom {
-    margin: 4.5rem 0 2.5rem;
+    margin: 71px 0 2.5rem;
   }
 }
 

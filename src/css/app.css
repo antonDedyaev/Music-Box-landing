@@ -699,6 +699,11 @@ h2 {
   gap: 25px 50px;
 }
 
+.album-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 .album-info * {
   margin: 0;
   display: flex;
@@ -746,8 +751,13 @@ h2 {
   grid-template-columns: repeat(4, 250px);
   gap: 25px 50px;
 }
+.similar-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 .similar-image {
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 .similar-info {
   display: flex;

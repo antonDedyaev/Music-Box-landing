@@ -12,8 +12,14 @@
     gap: 25px 50px;
   }
 
+  &-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
   &-image {
-    margin-bottom: 16px;
+    margin-bottom: 18px;
   }
 
   &-info {

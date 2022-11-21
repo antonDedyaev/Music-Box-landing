@@ -19,7 +19,7 @@
   }
 
   &-image {
-    vertical-align: middle
+    width: 575px;
   }
 
   &-title {
@@ -73,6 +73,8 @@
 
 .col {
   &-text {
+    width: 575px;
+  
     display: flex;
     flex-direction: column;
   }

@@ -421,7 +421,7 @@ h2 {
   gap: 50px;
 }
 .news-image {
-  vertical-align: middle;
+  width: 575px;
 }
 .news-title {
   color: #fff;
@@ -463,6 +463,7 @@ h2 {
 }
 
 .col-text {
+  width: 575px;
   display: flex;
   flex-direction: column;
 }

@@ -593,7 +593,7 @@ h2 {
   .info-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 0;
   }
   .col-title {
     font: bold 18px/27px Roboto, sans-serif;

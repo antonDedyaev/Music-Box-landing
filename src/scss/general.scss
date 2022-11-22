@@ -29,10 +29,6 @@ body {
   @extend %basic-font-style;
 }
 
-.header-section {
-    position: relative;
-}
-
 section {
   position: relative;
 }
@@ -146,8 +142,9 @@ a {
   &-wrapper {
     position: absolute;
     top: 25px;
-
-    width: 100%;
+    right: 0;
+    left: 0;
+    z-index: 9999;
   }
 }
 

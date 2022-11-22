@@ -24,10 +24,6 @@ body {
   margin: 0;
 }
 
-.header-section {
-  position: relative;
-}
-
 section {
   position: relative;
 }
@@ -125,7 +121,9 @@ a:hover {
 .top-wrapper {
   position: absolute;
   top: 25px;
-  width: 100%;
+  right: 0;
+  left: 0;
+  z-index: 9999;
 }
 
 .search-form {

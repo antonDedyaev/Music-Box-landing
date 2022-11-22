@@ -600,9 +600,7 @@ h2 {
     font: bold 18px/27px Roboto, sans-serif;
   }
   .media-logo {
-    display: flex;
-    gap: 1.5rem;
-    align-items: baseline;
+    margin-bottom: 12px;
   }
 }
 .morten-harket {

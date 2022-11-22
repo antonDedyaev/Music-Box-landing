@@ -548,6 +548,10 @@ h2 {
     width: 100%;
   }
 }
+.footer-section {
+  padding-bottom: 18px;
+}
+
 .bg-gradient {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
@@ -584,7 +588,7 @@ h2 {
 }
 
 .divider-bottom {
-  margin: 0;
+  margin: 24px 0 8px;
 }
 
 .menu-media h2 {

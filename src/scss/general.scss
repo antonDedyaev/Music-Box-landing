@@ -29,9 +29,9 @@ body {
   @extend %basic-font-style;
 }
 
-section {
-  position: relative;
-}
+// section {
+//   position: relative;
+// }
 
 h3 {
   font-weight: normal;
@@ -142,9 +142,8 @@ a {
   &-wrapper {
     position: absolute;
     top: 25px;
-    right: 0;
-    left: 0;
-    z-index: 9999;
+    width: 100%;
+
   }
 }
 

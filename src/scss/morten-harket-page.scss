@@ -62,8 +62,10 @@
 
 @media (max-width: 1239px) {
   .morten-harket {
-    padding-top: 225px;
-
+    &-wrapper {
+      margin-top: 25px;
+      margin-bottom: 1.5rem;
+    }
     &-text {
       h1 {
         margin: 0;

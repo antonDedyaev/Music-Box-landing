@@ -36,7 +36,6 @@
 
   .input-container {
     display: grid;
-    flex-shrink: 1;
     grid-template-areas:
       "col-1 col-2"
       "col-3 col-3";

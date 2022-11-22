@@ -66,6 +66,10 @@ h3 {
   margin-top: 200px;
 }
 
+.mb-0 {
+  margin-bottom: 0;
+}
+
 .mb-24 {
   margin-bottom: 24px;
 }
@@ -252,7 +256,6 @@ h2 {
 }
 .access-form .input-container {
   display: grid;
-  flex-shrink: 1;
   grid-template-areas: "col-1 col-2" "col-3 col-3";
   gap: 24px;
 }
@@ -649,8 +652,9 @@ h2 {
 }
 
 @media (max-width: 1239px) {
-  .morten-harket {
-    padding-top: 225px;
+  .morten-harket-wrapper {
+    margin-top: 25px;
+    margin-bottom: 1.5rem;
   }
   .morten-harket-text h1 {
     margin: 0;

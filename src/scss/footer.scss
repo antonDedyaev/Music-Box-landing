@@ -12,7 +12,8 @@
 
   &-wrapper {
     display: grid;
-    grid-template-columns: repeat(4, 310px);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
   }
 }
 
@@ -44,10 +45,10 @@
 }
 
 .menu {
-  &-bottom {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
+  // &-bottom {
+  //   padding-top: 2rem;
+  //   padding-bottom: 2rem;
+  // }
 
   &-media {
     h2 {
@@ -67,7 +68,7 @@
     &-wrapper {
       display: flex;
       flex-direction: column;
-      row-gap: 20px;
+      gap: 15px;
     }
   }
 }

@@ -562,7 +562,8 @@ h2 {
 }
 .info-wrapper {
   display: grid;
-  grid-template-columns: repeat(4, 310px);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
 }
 
 .media-logo {
@@ -588,10 +589,6 @@ h2 {
   margin: 4.5rem 0 2.5rem;
 }
 
-.menu-bottom {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
 .menu-media h2 {
   margin-bottom: 20px;
 }
@@ -600,7 +597,7 @@ h2 {
   .info-wrapper {
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    gap: 15px;
   }
 }
 .morten-harket {

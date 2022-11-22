@@ -548,10 +548,6 @@ h2 {
     width: 100%;
   }
 }
-.footer-section {
-  padding-bottom: 16px;
-}
-
 .bg-gradient {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
@@ -586,10 +582,7 @@ h2 {
 }
 .col-list {
   font: normal 1rem/1.5rem Roboto, sans-serif;
-}
-
-.divider-bottom {
-  margin: 22px 0 8px;
+  margin-bottom: 1rem;
 }
 
 .menu-media h2 {
@@ -597,9 +590,6 @@ h2 {
 }
 
 @media (max-width: 1239px) {
-  .footer-section {
-    padding-bottom: 1rem;
-  }
   .info-wrapper {
     display: flex;
     flex-direction: column;

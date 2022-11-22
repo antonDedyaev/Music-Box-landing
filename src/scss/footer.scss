@@ -11,10 +11,8 @@
   padding-left: 20px;
 
   &-wrapper {
-    padding: 0;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
+    grid-template-columns: repeat(4, 310px);
   }
 }
 
@@ -33,13 +31,36 @@
     font-size: 18px;
     line-height: 1.5em;
   }
+
+  &-list {
+    font: normal 1rem/1.5rem Roboto, sans-serif;
+  }
 }
 
 .divider {
   &-bottom {
-    margin: 71px 0 2.5rem;
+    margin: 4.5rem 0 2.5rem;
   }
 }
+
+.menu {
+  &-bottom {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  &-media {
+    h2 {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+// .test {
+//   li {
+//     height: 24px;
+//   }
+// }
 
 @media (max-width: 1239px) {
   .info {

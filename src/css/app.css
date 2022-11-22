@@ -158,6 +158,7 @@ a:hover {
   gap: 1.5rem;
 }
 .list-bottom {
+  margin: 0;
   gap: 1rem;
 }
 .list-unmarked {
@@ -560,10 +561,8 @@ h2 {
   padding-left: 20px;
 }
 .info-wrapper {
-  padding: 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
+  grid-template-columns: repeat(4, 310px);
 }
 
 .media-logo {
@@ -581,9 +580,20 @@ h2 {
   font-size: 18px;
   line-height: 1.5em;
 }
+.col-list {
+  font: normal 1rem/1.5rem Roboto, sans-serif;
+}
 
 .divider-bottom {
-  margin: 71px 0 2.5rem;
+  margin: 4.5rem 0 2.5rem;
+}
+
+.menu-bottom {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.menu-media h2 {
+  margin-bottom: 20px;
 }
 
 @media (max-width: 1239px) {

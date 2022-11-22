@@ -56,18 +56,18 @@
       border-radius: 3px;
 
       &::placeholder {
+        color: $white;
         font-weight: 700;
         font-size: 14px;
         line-height: 16px;
-        color: $white;
       }
     }
   }
 
   .btn {
     &-access {
-      border: none;
       background: $green;
+      border: none;
     }
   }
 }
@@ -87,8 +87,8 @@
 @media (max-width: 1239px) {
   .banner {
     &-wrapper {
-      margin-top: 48px;
       display: block;
+      margin-top: 48px;
     }
 
     &-text {

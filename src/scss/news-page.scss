@@ -23,8 +23,9 @@
   }
 
   &-title {
-    color: $white;
     margin-top: 0;
+
+    color: $white;
 
     font-size: 30px;
     line-height: 1.5em;
@@ -33,6 +34,7 @@
 
   &-text {
     margin-top: 0;
+
     font-size: 1rem;
     line-height: 1.5rem;
   }
@@ -56,7 +58,7 @@
 
   &-right {
     flex-direction: row;
-  
+
     p {
       margin-bottom: 24px;
     }
@@ -73,10 +75,10 @@
 
 .col {
   &-text {
-    width: 575px;
-  
+
     display: flex;
     flex-direction: column;
+    width: 575px;
   }
 }
 

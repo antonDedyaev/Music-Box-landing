@@ -45,8 +45,8 @@
     border-radius: 1rem;
 
     h3 {
-      padding: 0;
       margin-bottom: 200px;
+      padding: 0;
     }
   }
 
@@ -97,10 +97,10 @@
 
 .btn {
   &-subscribe {
-    height: 66px;
     display: flex;
     justify-content: center;
     box-sizing: border-box;
+    height: 66px;
 
     border: 1px solid $white;
   }

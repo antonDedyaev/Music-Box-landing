@@ -17,10 +17,10 @@
 }
 
 .media-logo {
-  margin-bottom: 1rem;
   display: flex;
   gap: 1.5rem;
   align-items: baseline;
+  margin-bottom: 1rem;
 }
 
 .col {
@@ -29,14 +29,16 @@
 
   &-title {
     margin-top: 15px;
+
     color: $white;
     font-size: 18px;
     line-height: 1.5em;
   }
 
   &-list {
-    font: normal 1rem/1.5rem Roboto, sans-serif;
     margin-bottom: 1rem;
+
+    font: normal 1rem/1.5rem Roboto, sans-serif;
   }
 }
 

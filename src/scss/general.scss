@@ -23,6 +23,7 @@
 }
 
 body {
+  position: relative;
   margin: 0;
 
   @extend %basic-font-style;
@@ -30,6 +31,10 @@ body {
 
 .header-section {
     position: relative;
+}
+
+section {
+  position: relative;
 }
 
 h3 {

@@ -20,10 +20,15 @@ h2, h1 {
 }
 
 body {
+  position: relative;
   margin: 0;
 }
 
 .header-section {
+  position: relative;
+}
+
+section {
   position: relative;
 }
 

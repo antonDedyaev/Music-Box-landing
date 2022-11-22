@@ -17,6 +17,7 @@
 }
 
 .media-logo {
+  margin-bottom: 1rem;
   display: flex;
   gap: 1.5rem;
   align-items: baseline;
@@ -66,5 +67,11 @@
     &-title {
       font: bold 18px/27px Roboto, sans-serif;
     }
+  }
+
+  .media-logo {
+    display: flex;
+    gap: 1.5rem;
+    align-items: baseline;
   }
 }

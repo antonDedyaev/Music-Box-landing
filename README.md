@@ -3,5 +3,9 @@
 
 # Music Box
 
+Second layout designer project at Hexlet.
+
+The project represents two layouts for Music Box website. The web-site gives access to online music streaming.
+
 Feel free to visit https://antondedyaev-musicbox.surge.sh
 

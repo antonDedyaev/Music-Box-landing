@@ -31,22 +31,15 @@
     margin-top: 15px;
 
     color: $white;
-    font-size: 18px;
-    line-height: 1.5em;
+    font: bold 18px/27px Roboto, sans-serif;
   }
 
   &-list {
     margin-bottom: 1rem;
 
-    font: normal 1rem/1.5rem Roboto, sans-serif;
+    font: normal 16px/24px Roboto, sans-serif;
   }
 }
-
-// .divider {
-//   &-bottom {
-//     margin: 22px 0 8px;
-//   }
-// }
 
 .menu {
   &-media {
@@ -65,11 +58,11 @@
     }
   }
 
-  .col {
-    &-title {
-      font: bold 18px/27px Roboto, sans-serif;
-    }
-  }
+  // .col {
+  //   &-title {
+  //     font: bold 18px/27px Roboto, sans-serif;
+  //   }
+  // }
 
   .media-logo {
     margin-bottom: 12px;

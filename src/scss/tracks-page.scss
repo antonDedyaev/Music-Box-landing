@@ -1,6 +1,6 @@
 .tracks {
-  padding-right: 20px;
-  padding-left: 20px;
+  // padding-right: 20px;
+  // padding-left: 20px;
 
   h2 {
     color: $white;
@@ -18,8 +18,7 @@
   display: flex;
   align-items: center;
 
-  font-size: 12.8px;
-  line-height: 19.2px;
+  font: 12.8px/19.2px Roboto, sans-serif;
 
   .track {
     &-info {

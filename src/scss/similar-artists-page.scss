@@ -1,6 +1,6 @@
 .similar {
-  padding-right: 20px;
-  padding-left: 20px;
+  // padding-right: 20px;
+  // padding-left: 20px;
 
   h2 {
     color: $white;
@@ -31,7 +31,7 @@
 
   &-artist {
     &-name {
-      margin: 0;
+      // margin: 0;
 
       color: $white;
       font: bold 18px/27px Roboto, sans-serif;
@@ -39,9 +39,9 @@
     }
 
     &-fanbase {
-      margin: 0;
+      // margin: 0;
 
-      font: normal 1rem/1.5rem Roboto, sans-serif;
+      font: normal 16px/24px Roboto, sans-serif;
     }
   }
 }

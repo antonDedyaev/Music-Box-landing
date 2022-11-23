@@ -487,6 +487,14 @@ h2 {
   row-gap: 64px;
 }
 
+.news-body {
+  padding: 0;
+}
+
+.news-body h3 {
+  padding: 0;
+}
+
 .news-item {
   display: flex;
   gap: 50px;
@@ -564,7 +572,7 @@ h2 {
   }
 
   .news-title {
-    font-size: 1rem;
+    font: 16px/24px Roboto, sans-serif;
   }
 }
 

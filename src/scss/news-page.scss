@@ -1,7 +1,4 @@
 .news {
-  // padding-right: 20px;
-  // padding-left: 20px;
-
   h2 {
     color: $white;
     text-align: center;
@@ -11,6 +8,14 @@
     display: flex;
     flex-direction: column;
     row-gap: 64px;
+  }
+
+  &-body {
+    padding: 0;
+
+    h3 {
+      padding: 0;
+    }
   }
 
   &-item {
@@ -32,8 +37,6 @@
   }
 
   &-text {
-    // margin-top: 0;
-
     font: 16px/24px Roboto, sans-serif;
   }
 
@@ -51,8 +54,6 @@
 }
 
 .text {
-  // margin-top: 0;
-
   &-right {
     flex-direction: row;
 
@@ -109,7 +110,7 @@
     }
 
     &-title {
-      font-size: 1rem;
+      font: 16px/24px Roboto, sans-serif;
     }
   }
 }

@@ -293,6 +293,10 @@ h2 {
   align-items: center;
 }
 
+.banner * {
+  margin: 0;
+}
+
 .banner-text {
   text-align: center;
 }

@@ -28,8 +28,6 @@
   flex-direction: column;
 
   &-title {
-    //margin-top: 15px;
-
     color: $white;
     font: 18px/27px Roboto, sans-serif;
   }
@@ -57,12 +55,6 @@
       gap: 0;
     }
   }
-
-  // .col {
-  //   &-title {
-  //     font: bold 18px/27px Roboto, sans-serif;
-  //   }
-  // }
 
   .media-logo {
     margin-bottom: 12px;

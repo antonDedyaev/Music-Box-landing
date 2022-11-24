@@ -146,8 +146,6 @@ a {
   }
 }
 
-/* DESKTOP */
-
 .container {
   position: relative;
 
@@ -233,8 +231,6 @@ h2 {
 
   @extend %bold-uppercase;
 }
-
-/* MOBILE */
 
 @media (max-width: 1239px) {
   .container {

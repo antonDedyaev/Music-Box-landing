@@ -30,6 +30,10 @@ body {
   @extend %basic-font-style;
 }
 
+a {
+  text-decoration: none;
+}
+
 h3 {
   font: normal 24px/36px Roboto, sans-serif;
 }
